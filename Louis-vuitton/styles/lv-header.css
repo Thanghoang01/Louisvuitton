@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 12px 45px;
+    position: sticky;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 5;
+}
+.left-section{
+    display: flex;
+}
+.button-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.lv-btn-icon{
+    height: 23px;
+    margin-right: 12px;
+    font-family: Roboto, Arial;
+}
+.tooltip{
+    font-size: 13px;
+    font-family: Roboto, Arial;
+}
+.tooltips{
+    margin-right: 15px;
+}
+.user-icons{
+    cursor: pointer;
+    margin-left: 12px;
+}
+.mider-section{
+    font-family: Roboto, Arial;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: -35px;
+    margin-right: 35px;
+}
+.header-link{
+    display: inline-block;
+    padding: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.lv-heart-icon-wishlist{
+    display: flex;
+    position: relative;
+}
+.lv-notification-bubble{
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    right: -6px;
+    top: -4px;
+    border-radius: 50%;
+    background-color: orange;
+    transition: background-color .3s cubic-bezier(.39,.575,.565,1);
+    opacity: 0;
+}
+.js-notification-bubble{
+    opacity: 1;
+}

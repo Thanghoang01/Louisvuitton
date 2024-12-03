@@ -1,0 +1,100 @@
+.lv-editorial-animate-hub {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.lv-editorial-hub_text{
+    margin-bottom: 20px;
+}
+.women{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.lv-editorial-hub_text .hanbags{
+    font-size: 35px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+.discover{
+    margin-top: 10px;
+    font-size: 18px;
+    box-shadow: black 0px 2px 0px -1px;
+    cursor: pointer;
+}
+.lv-smart-picture-object{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    height: 720px;
+}
+.lv-smart-picture{
+    text-align: center;
+    height: 720px;
+}
+
+
+.lv-editorial-hub-items{
+    margin-top: 50px;
+    margin-bottom: -1px;
+    padding-top: 2vw;
+    min-height: 410px;
+    padding-bottom: 50px;
+}
+.lv-shop-the-section{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.lv-shop-the-section-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 40px;
+    font-size: 16px; 
+    font-weight: 400;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    height: auto;
+}
+.lv-product-card{
+    position: relative;
+    cursor: pointer;
+}
+.lv-product-card-media img{
+    position: relative;
+    height: 340px;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    padding-top: 15px;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../lv-asset/gradient_default.svg);
+    background-origin: padding-box;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lv-product-card-media .btn-icons{
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    top: 15px;
+    right: 15px;
+}
+.lv-product-card .lv-product-card-info{
+    display: block;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 10%;
+    font-family: Roboto, Arial;
+    margin-top: 15px;
+}
+
+

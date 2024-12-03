@@ -1,0 +1,113 @@
+footer{
+    padding-bottom: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e1e1;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: rgb(192, 187, 187);
+    margin: 20px auto;
+}
+.lv-footer-breadcrumb{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 24px;
+}
+.lv-footer-breadcrumb h1{
+    display: block;
+    justify-content: center;
+    align-content: center;
+    height: 50px;
+}
+.lv-gutters{
+    padding-left: 27px;
+    padding-right: 27px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.lv-expandable-panel{
+    width: 100%;
+}
+.lv-expandable-panel button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-top: 1px solid #e1e1e1;
+}
+.lv-footer-title{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    padding: 1rem 0;
+}
+.plus-sign{
+    font-size: 1rem;
+}
+.lv-footer-gutter{
+    padding: 1.5rem;
+}
+.lv-footer-legar-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.lv-footer-legar-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: .25rem 0;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+}
+.lv-footer-legar-icon{
+    list-style: none;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+}
+.lv-footer-legar-icon button{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    transform: inherit;
+    text-align: inherit;
+}
+.lv-footer-legar-shipto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: .5rem 0;
+}
+.lv-footer-legar-shipto .lv-icons-flag{
+    padding-right: 8px;
+    cursor: pointer;
+    margin-top: -4px;
+}
+.lv-footer-legar-shipto .country-label{
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    box-shadow: black 0px 2px 0px -1px;
+}

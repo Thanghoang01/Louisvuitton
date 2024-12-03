@@ -1,0 +1,43 @@
+.lv-editorial-hub {
+    display: block;
+    text-align: center;
+    height: auto;
+    margin: 110px;
+}
+
+.lv-editorial-text {
+    font-family: Roboto, Arial;
+    color: rgb(40, 37, 37);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 16px;
+    margin-bottom: 25px;
+}
+.lv-editorial-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+    row-gap: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+}
+
+.lv-editorial-grid-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.lv-editorial-grid-items .lv-content-push-list-items {
+    height: 385px;
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 25px;
+}
+.lv-editorial-grid-items .lv-content-push-list-header{
+    text-align: center;
+}

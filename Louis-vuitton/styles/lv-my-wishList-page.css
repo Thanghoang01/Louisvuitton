@@ -1,0 +1,65 @@
+.lv-mylv-layout-content{
+    display: block;
+    unicode-bidi: isolate;
+}
+.lv-my-wishlist-page-header{
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin: 3rem auto;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-family: Arial;
+}
+.heading-m{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    margin: 16px 0;
+}
+.lv-my-wishlist-descripstion{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.lv-button{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    line-height: 16px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 873px;
+    padding: .75rem 1.5rem;
+    background-color: black;
+    transition: color .3s cubic-bezier(.39, .575, .565, 1), background .3s cubic-bezier(.39, .575, .565, 1), border .3s cubic-bezier(.39, .575, .565, 1);
+}
+.lv-social-share{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    margin-left: 8px;
+}
+.lv-share-icon{
+    margin-right: .5rem;
+    margin-bottom: 4px;
+}
+.lv-button:hover{
+    color: black;
+    background-color: white;
+}
+.lv-social-share:hover{
+    border: 1.5px solid black;
+}
+.lv-product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(248, 248, 248);
+}
